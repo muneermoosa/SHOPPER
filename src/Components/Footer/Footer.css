@@ -1,0 +1,91 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap:30px;
+   
+}
+.footer-logo p{
+    color: #383838;
+    font-size: 36px;
+    font-weight: 700;
+    
+   
+
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap:20px;
+    color: #252525;
+    font-size: 15px;
+  }
+
+  .footer-links li{
+    margin-top: -60px;
+    cursor: pointer;
+    
+      }
+
+      .footer-social-icon{
+        display: flex;
+        gap:20px;
+
+      }
+      .footer-icons-container{
+        margin-top: -60px;
+        display: flex;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        padding-bottom: 6px;
+        background: #fbfbfb;
+        border: 2px solid #ebebeb;
+        
+        
+
+     }
+     .footer-copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        width: 50%;
+        margin-bottom: 10px;
+        color: #1a1a1a;
+        font-size: 20px;
+           }
+           .footer-copyright hr{
+            margin-top: -60px;
+            width: 80%;
+            border: none;
+            border-radius: 10px;
+            height: 3px;
+            background: #c7c7c7;
+
+           }
+           .niyans{
+            width: 100%;
+            display: flex;
+            justify-content: right;
+            color: green;
+           margin-top: -40px;
+                   
+          
+           }
+           .niyans img{
+            width: 50px;
+            height: 50px;
+           margin-top: 15px;
+           
+            
+
+           }
